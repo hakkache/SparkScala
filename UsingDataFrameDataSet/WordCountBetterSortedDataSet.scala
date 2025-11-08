@@ -1,6 +1,5 @@
 package com.hakkache.UsingDataFrameDataSet
 import org.apache.spark.sql.SparkSession
-import org.apache.spark._
 import org.apache.spark.sql.functions._
 import org.apache.log4j._
 
