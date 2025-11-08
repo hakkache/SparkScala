@@ -35,10 +35,10 @@ object DataFramesDataSet {
     people.filter(people("age")<21).show()
 
     println("group by age :")
-    people.groupBy("age")
+    people.groupBy(people("age")).count().show()
 
     println("make everyone 10 years older")
-    people.select(people("name"),people("age")+10)
+    people.select(people("name"),people("age")+10).show()
 
     spark.stop()
 
