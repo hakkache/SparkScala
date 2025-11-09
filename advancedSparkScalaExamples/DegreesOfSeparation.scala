@@ -13,7 +13,6 @@ object DegreesOfSeparation {
   val startCharacterID = 5306 //SpiderMan
   val targetCharacterID = 14 //ADAM 3,031 (who?)
 
-
   var hitCounter:Option[LongAccumulator] = None
 
 
