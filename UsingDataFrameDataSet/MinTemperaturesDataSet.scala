@@ -51,6 +51,8 @@ object MinTemperaturesDataSet {
 
       println(s"$station minimum temperature : $formattedTemp")
 
+      spark.stop()
+
     }
 
 

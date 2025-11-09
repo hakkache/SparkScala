@@ -41,7 +41,7 @@ object FriendsByAgeDataset {
     friendsByAge.groupBy("age").agg(round(avg("friends"), 2))
       .sort("age").sort("age").show()
 
-
+    spark.stop()
 
 
 

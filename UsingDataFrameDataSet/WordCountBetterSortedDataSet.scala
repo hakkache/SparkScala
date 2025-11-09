@@ -49,7 +49,7 @@ object WordCountBetterSortedDataSet {
 
     wordCountsDSSorted.show(wordCountsDSSorted.count().toInt)
 
-
+    spark.stop()
 
 
 

@@ -38,7 +38,7 @@ object TotalSpentByCustomerDataSet {
 
     totalByCustomerSorted.show(totalByCustomerSorted.count.toInt)
 
-
+    spark.stop()
 
 
 
